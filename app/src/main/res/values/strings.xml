@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CodeLayout</string>
+    <string name="greeting"> 안녕하세용 </string>
 </resources>
