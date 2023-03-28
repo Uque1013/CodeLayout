@@ -2,4 +2,7 @@
     <string name="app_name">CodeLayout</string>
     <string name="greeting"> 안녕하세용 </string>
     <string name="btn1_text">네이버 홈페이지 열기</string>
+    <string name="btn2_text">친구에게 전화 걸기</string>
+    <string name="btn3_text">갤러리 열기</string>
+    <string name="btn4_text">끝내기</string>
 </resources>
