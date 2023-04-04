@@ -1,0 +1,56 @@
+fun main() {
+//     var score = 95
+//     when(score){
+//         in 90..100 -> println("When문 : 합격(장학생)")
+//         in 60..89 -> println("When문 : 합격")
+//         else -> println("When문 : 불합격")
+//     }
+//     var one = Array<Int>(4,{0})
+//     one[0] = 10
+//     one[3] = 20
+//     for(i in one.indices)
+//     	println(one[i])
+        
+//     var two = Array<IntArray>(3,{IntArray(4,{2})})
+//     // 3행 4열의 2차원 배열
+//     // row의 index : 0~2
+//     // col의 index : 0~3
+//     two[1][2] = 100
+//     two[2][3] = 200
+    
+//     for((i, row) in two.withIndex()){
+//         for((j, col) in row.withIndex()){
+//       		print("($i, $j) = $col\t")      
+//         }
+//  			println()
+//     }
+//
+    
+//     for(i in 1..10 step 1){
+//         print("$i :: ")
+//     }
+//     
+//     var leng = 5;
+//     for(i in 1..leng)
+//     	print("$i / ")
+        
+//     println()
+//     for(j in 1 until leng)
+//     	print("$j | ")
+    	
+    var one : IntArray = intArrayOf(10,20,30)
+    for(value in one){
+        println(value)
+    }
+    
+    var two : Array<String> = arrayOf("하나", "둘", "셋")
+    for(i in 0..2 step 1){
+        println(two[i])
+    }
+    
+    var k : Int = 0
+    while(k < two.size) {
+        println(two[k])
+        k++
+    }
+}
